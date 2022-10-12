@@ -1,35 +1,43 @@
-*{
+* {
     margin: 0px;
     padding: 0px;
-    
-
 }
 
-.header-text{
+.header-text {
     margin-top: 25%;
 }
-.tittle{
+.tittle {
     font-size: 80px;
 }
-.lead{
+.lead {
     width: 80% ;
     padding-top: 10px;
     text-align: center;
 }
 
-.img-size{
+.img-size {
     width: 70px;
     height: 90px;
     padding-top: 20px;
 }
 
-.img-size2{
+.img-size2 {
     width: 100%;
     height: 100%;
     margin-top: -80px;
 }
 
 
+
+.bi-whatsapp {
+    font-size: 30px;
+    color: green;
+    margin-right: 20px;
+}
+.bi-instagram {
+    font-size: 30px;
+    color:green;
+}
 
 
 .retangule{
@@ -224,6 +232,11 @@
 .row-line{
     display: flex;
     flex-direction: row;
+    justify-content: center;
+    margin-top: 20px;
+}
+.row-line a{
+    margin-left: 5px;
 }
 .button3{
     background-color: #17C3B2;
@@ -240,6 +253,7 @@
 }
 .divdescnew{
     margin-top: 90px;
+    width: 60%;
 }
 .titulo-coment{
     font-size: 20px;
@@ -474,15 +488,12 @@ form{
     color: red;
     cursor: pointer;
     font-size: 20px;
+    background-color: white;
 }
 
 
 
 @media (min-width:1680px) and (max-width: 1920px){
-    
-    
-
-
 }
 
 @media (min-width:1440) and (max-width: 1680px){
@@ -497,22 +508,16 @@ form{
         padding-top: 10px;
         text-align: center;
     }
-    
     .img-size{
         width: 70px;
         height: 90px;
         padding-top: 20px;
     }
-    
     .img-size2{
         width: 380px;
         height: 400px;
         margin-top: -30px;
     }
-    
-    
-    
-    
     .retangule{
         background-color:  rgb(221, 221, 221);
         width: 600px;
@@ -521,15 +526,12 @@ form{
         position: absolute;
         right: 0px;
     }
-    
     .center{
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    
-    /* buttons 
-    
+    /* buttons
     /* From uiverse.io by @nikk7007 */
     .button {
         padding: 0.8em 1.8em;
@@ -545,7 +547,6 @@ form{
         font-family: inherit;
         color: #17C3B2;
        }
-       
        .button::before {
         content: '';
         width: 0;
@@ -559,29 +560,22 @@ form{
         display: block;
         z-index: -1;
        }
-       
        .button:hover::before {
         width: 105%;
        }
-       
        .button:hover {
         color: white;
        }
-       
-    
        .center-button{
         display: flex;
         flex-direction: row;
         justify-content: center;
        }
-    
        .header{
         margin-top: 70px;
         width: 100%;
         height: 690px;
-        
        }
-    
        .text-tittle{
          width: 100%;
          margin-top: 20px;
@@ -590,18 +584,14 @@ form{
          font-size: 30px;
          text-align: center;
        }
-    
        .card-size{
         width: 87%;
-        margin: 30px 
+        margin: 30px
        }
-    
        .bi-star-fil{
         background-color: #17C3B2;
         color: #17C3B2;
        }
-    
-     
        .card2 {
         width: 85%;
         height:930px;
@@ -610,12 +600,8 @@ form{
         box-shadow: 5px 5px 30px #bebebe,
                     -15px -15px 30px #ffffff;
         margin-bottom: 40px;
-    
        }
-    
-    
-    
-        
+
        .card3 {
         width: 85%;
         height: 654px;
@@ -940,9 +926,25 @@ form{
 
 @media (max-width: 576px){
 
+    .img-noot{
+        width: 100%;
+    }
+
+    .title-list-last{
+        text-align: center;
+    }
+    .bussinesinfo{
+        text-align: center;
+    }
+
     .list-item ul li {
         text-decoration: none;
         list-style-type: none;
+    }
+
+    .divdescnew{
+        width: 90%;
+        margin-top: 20px;
     }
     
     .list-item li{
@@ -950,6 +952,12 @@ form{
         margin-top: 10px;
         font-size: 18px;
     }
+    .list-item2 li{
+        width: 100%;
+        margin-top: 10px;
+        font-size: 14px;
+    }
+    
     .textdescinfo{
         font-size: 12px;
     }
