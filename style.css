@@ -310,9 +310,10 @@
 form{
     margin-top: 60px;
     width: 40%;
-    background-color: #e0e0e0;
+    background-color: white;
     padding: 40px;
     border-radius: 20px;
+    box-shadow: 0px 4px 10px rgb(12, 12, 12);
 
 }
 
@@ -418,18 +419,7 @@ form{
     color: #234567;
    }
    
-   .cta svg {
-    position: relative;
-    top: 0;
-    margin-left: 10px;
-    fill: none;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke: #234567;
-    stroke-width: 2;
-    transform: translateX(-5px);
-    transition: all 0.3s ease;
-   }
+   
    
    .cta:hover:before {
     width: 100%;
@@ -440,9 +430,7 @@ form{
     transform: translateX(0);
    }
    
-   .cta:active {
-    transform: scale(0.95);
-   }
+   
 
    .imgsizeinfos{
     width: 100%;
@@ -700,7 +688,7 @@ form{
     form{
         margin-top: 60px;
         width: 90%;
-        background-color: #e0e0e0;
+        background-color: #ffffff !important;
         padding: 40px;
         border-radius: 20px;
     
