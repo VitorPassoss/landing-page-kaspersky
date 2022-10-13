@@ -18,14 +18,10 @@ function modal(indice){
                 card3.style.height = '654px'
                 let more = document.querySelectorAll('.sabermais')
                 if(more[0].innerText == 'Saber Mais'){
-                    more[0].innerText = 'Fechar'
-                    
-                }
-                
-            }
-          
-    }
-    
+                    more[0].innerText = 'Fechar'                    
+                }               
+            }         
+    }   
     if(indice == 2){
         let card2 = document.querySelectorAll('.card2')
         let listitem = document.querySelectorAll('.list-item')

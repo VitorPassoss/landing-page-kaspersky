@@ -688,7 +688,7 @@ form{
     form{
         margin-top: 60px;
         width: 90%;
-        background-color: #ffffff !important;
+        background-color: white !important;
         padding: 40px;
         border-radius: 20px;
     
@@ -914,9 +914,10 @@ form{
     form{
         margin-top: 60px;
         width: 90%;
-        background-color: #e0e0e0;
+        background-color: white;
         padding: 40px;
         border-radius: 20px;
+        box-shadow: 0px 4px 10px rgb(12, 12, 12);
     
     }
 
@@ -1215,10 +1216,10 @@ li{
 form{
     margin-top: 60px;
     width: 90%;
-    background-color: #e0e0e0;
+    background-color: white !important;
     padding: 40px;
     border-radius: 20px;
-
+    box-shadow: 0px 4px 10px rgb(12, 12, 12);
 }
 
 .btn{
