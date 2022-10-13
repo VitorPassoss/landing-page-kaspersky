@@ -7,12 +7,13 @@ function modal(indice){
         if(more[0].innerText == 'Fechar'){
             more[0].innerText = 'Saber Mais'
         }
-            if(listitem[0].style.display == 'initial'  ){
-                console.log(listitem[0].style.display)
+        console.log(listitem[0].style.display)
+            if(listitem[0].style.display == 'initial'  || listitem[0].style.display == '' || listitem[0].style.display != 'none' || listitem[0].style.display == null){
+                
                 listitem[0].style.display = 'none'
                 card3.style.height = '290px'
                 
-            }else if(listitem[0].style.display == 'none' || listitem[0].style.display == ''){
+            }else if(listitem[0].style.display == 'none' || listitem[0].style.display == '' || listitem[0].style.display != 'initial' || listitem[0].style.display == '<empty string>' ){
                 listitem[0].style.display = 'initial'
                 card3.style.height = '654px'
                 let more = document.querySelectorAll('.sabermais')
@@ -88,4 +89,15 @@ function exitform(){
     let form = document.querySelector('.modal-form')
       form.style.display = 'none'
     
+}
+
+
+function sendcrm(){
+    let name = document.querySelector('#nome').value
+    let email = document.querySelector('#email').value
+    let telefone = document.querySelector('#telefone').value
+  
+    if(name == '' || name == undefined || name == null){
+        alert('Preencha o formulario corretamente!')
+    }
 }

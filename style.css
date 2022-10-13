@@ -3,6 +3,10 @@
     padding: 0px;
 }
 
+#kaspersky{
+    margin-top: 50px !important;
+ }
+
 .header-text {
     margin-top: 25%;
 }
@@ -65,6 +69,8 @@
  
  }
 
+ 
+ 
 /* buttons 
 
 /* From uiverse.io by @nikk7007 */
@@ -113,7 +119,7 @@
    }
 
    .header{
-    margin-top: 170px;
+    margin-top: 140px;
     width: 100%;
     height: 390px;
   
@@ -229,11 +235,14 @@
     padding-top: 5%;
 }
 
+
 .row-line{
     display: flex;
     flex-direction: row;
     justify-content: center;
     margin-top: 20px;
+    width: 100%;
+
 }
 .row-line a{
     margin-left: 5px;
@@ -357,6 +366,7 @@ form{
     text-align: center;
     margin-top: 25px;
     margin-bottom: 25px;
+    overflow: hidden;
 }
 
 .infos-two{
@@ -436,7 +446,16 @@ form{
 
    .imgsizeinfos{
     width: 100%;
+    position: relative;
+    right: 50px;
+    
    }
+
+   .img-info-two{
+    width: 50%;
+    overflow: hidden;
+   }
+   
 
    .button2 {
     padding: 0.5em 1.0em;
@@ -912,20 +931,25 @@ form{
         border-radius: 20px;
     
     }
-    
+
     .btn{
         margin-top: 20px;
     }
-    
+
     .textextext{
         width: 95%;
     }
-    
+
 
 }
 
 @media (max-width: 576px){
 
+    .row-line a img{
+      width: 100%;
+      height: 100%;
+
+    }
     .img-noot{
         width: 100%;
     }
@@ -1007,6 +1031,17 @@ form{
     margin-top: -30px;
 }
 
+.imgsizeinfos{
+    width: 100%;
+    position: relative;
+    right: 0px;
+    
+   }
+
+   .img-info-two{
+    width: 100%;
+    overflow: hidden;
+   }
 
 
 
